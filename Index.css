@@ -1,0 +1,509 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+.Main_body {
+  width: 100%;
+  height: auto;
+}
+
+.Navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 7.5rem;
+  /* background: rgba(0,0,0,0.15); */
+}
+.Logo_main {
+  height: 100%;
+  width: 25%;
+  display: flex;
+  align-items: center;
+}
+.Logo {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.Logo img {
+  width: 12rem;
+  height: auto;
+}
+.Logo_text {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.Logo_text h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.Nav_Links {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+
+.Nav_Links ul a {
+  text-decoration: none;
+  color: #000;
+}
+.Nav_Links ul li {
+  display: inline-block;
+  font-size: 1.8rem;
+  margin-right: 3.2rem;
+  list-style: none;
+  transition: all 0.3s ease-in-out;
+}
+.Nav_Links ul li:hover{
+    transform: scale(1.05);
+    color: #95a5a6;
+}
+.Right_Nav {
+  width: 25%;
+  height: 100%;
+}
+.Icons {
+    width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+}
+.whatsapp {
+  width: 50%;
+  height: 100%;
+ 
+}
+.email{
+    width: 50%;
+    height: 100%;
+ 
+}
+.whatsapp{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.whatsapp img{
+    width: 3rem;
+    margin-right: 1.2rem;
+}
+.whatsapp h2{
+    font-size: 1.3rem;
+}
+.email{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.email h2{
+    font-size: 1.3rem;
+}
+.email img{
+    width: 3rem;
+    margin-right: 1.2rem;
+}
+.menu{
+    display: none;
+}
+.menu button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.menu button img{
+    width: 2.5rem;
+}
+.Banner{
+    width: 100%;
+    padding: 1rem 4rem 1rem 4rem;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+.Banner_img{
+    width: 100%;
+    height: 100%;
+    
+    background-image: url(./Assets/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Main_img{
+    width: 100%;
+    height: auto;
+   
+    padding: 2rem 0 2rem 0;
+}
+.flex_4_img{
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+justify-content: space-evenly;
+    margin-bottom: 2.5rem;
+}
+.Img_box{
+    width: 30rem;
+    height: 100%;
+    background-color: #95a5a6;
+    margin: 1rem 0rem 1rem 0rem;
+}
+.Img_box img{
+    width: 100%;
+    height: 100%;
+}
+.txt_container{
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+    text-align: justify;
+    padding: 1rem 5rem 1rem 5rem;
+
+}
+.txt_container p{
+    font-size: 1.8rem;
+}
+
+
+
+/* Footer */
+.footer{
+    width: 96%;
+    height: 100%;
+    display: flex;
+}
+.foot_left{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1.2rem;
+}
+.foot_mid{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+.foot_right{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.abt{
+    width: 100%;
+    height: 100%;
+    
+}
+.abt h1{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+
+}
+.abt p{
+    font-size: 1.5rem;
+    text-align: justify;
+}
+.foot_mid h2{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.foot_mid ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot_mid ul li{
+    list-style: none;
+    font-size: 1.4rem;
+    margin: 2rem;
+}
+
+.foot_right h2{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.foot_right ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+.foot_right ul li{
+    list-style: none;
+    font-size: 1.4rem;
+    margin: 2rem;
+    font-weight: 400;
+}
+.Footer_main{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.2);
+}
+#lin{
+    width: 100%;
+}
+.whatsapp_Icon_btm{
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    background: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon_whatsapp_btn img{
+    width: 40px;
+    height: 40px;
+}
+@media all and (max-width:480px) {
+.Right_Nav{
+    display: none;
+}
+.Navbar{
+    flex-direction: column;
+    height: auto;
+}
+.menu{
+    display: block;
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+}
+.Logo_main{
+    width: 100%;
+}
+.Logo{
+    width: 30%;
+}
+.Logo img{
+    width: 100%;
+}
+.Nav_Links{
+    width: 100%;
+    display: none;
+}
+.Nav_Links ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Nav_Links ul li{
+    margin-top: 2rem;
+}
+.Logo_text{
+    width: 15%;
+
+}
+.Logo_text h1{
+    font-size: 1.3rem;
+}
+.Nav_Links.active{
+    display: flex;
+}
+.flex_4_img{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+.flex_4_img .Img_box{
+    width: 
+    80%;
+}
+.Footer_main{
+    height: auto;
+}
+.footer{
+    flex-direction: column;
+}
+.foot_left{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.foot_mid{
+    width: 100%;
+    margin-bottom: 1rem;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.foot_right{
+    width: 100%;
+    margin-bottom: 1rem;
+    align-items: flex-start;
+}
+.foot_mid ul{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+}
+.foot_right ul{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+}
+.foot_mid ul li {
+    margin: 2rem 3rem 0 0;
+}
+.foot_right ul li{
+    margin: 2rem 3rem 0 0;
+    
+}
+.txt_container{
+    padding: 1rem;
+}
+.txt_container p{
+    font-size: 1.2rem;
+
+}
+}
+
+@media all and (min-width: 481px) and (max-width: 768px) {
+    .menu{
+    transform: translate(-1rem,2rem);
+    }
+    .Right_Nav{
+        display: none;
+    }
+    .Navbar{
+        flex-direction: column;
+        height: auto;
+    }
+    .menu{
+        display: block;
+        position: absolute;
+        right: 2rem;
+        top: 2rem;
+    }
+    .Logo_main{
+        width: 100%;
+    }
+    .Logo{
+        width: 20%;
+    }
+    .Logo img{
+        width: 100%;
+    }
+    .Nav_Links{
+        width: 100%;
+        display: none;
+    }
+    .Nav_Links ul{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Nav_Links ul li{
+        margin-top: 2rem;
+    }
+    .Logo_text{
+        width: 15%;
+    
+    }
+    .Logo_text h1{
+        font-size: 2.3rem;
+    }
+    .Nav_Links.active{
+        display: flex;
+    }
+    .flex_4_img{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+    .flex_4_img .Img_box{
+        width: 
+        60%;
+    }
+    .Footer_main{
+        height: auto;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .foot_left{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .foot_mid{
+        width: 100%;
+        margin-bottom: 1rem;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+    .foot_right{
+        width: 100%;
+        margin-bottom: 1rem;
+        align-items: flex-start;
+    }
+    .foot_mid ul{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        
+    }
+    .foot_right ul{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        
+    }
+    .foot_mid ul li {
+        margin: 2rem 3rem 0 0;
+    }
+    .foot_right ul li{
+        margin: 2rem 3rem 0 0;
+        
+    }
+    .txt_container{
+        padding: 1rem 4rem 1rem 4rem;
+    }
+    .txt_container p{
+        font-size: 1.2rem;
+    
+    }
+    }
+    @media all and (min-width: 768px) and (max-width: 1000px){
+        *{
+            font-size: 40%;
+        }
+    }
